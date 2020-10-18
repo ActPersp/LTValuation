@@ -1,0 +1,16 @@
+Package: LTValuation
+Type: Package
+Version: 1.0
+License: GNU GPLv3
+Title: Level Term Valuation
+Description: A sample project demonstrating the valuation of level term insurance policies.
+Author: Edward Kuo
+Maintainer: Edward Kuo <ekuo70@gmail.com>
+Encoding: UTF-8
+LazyData: true
+Depends: R (>= 4.0.1)
+Imports: 
+   Rgogo,
+   MortTables.CA
+RGG_DbConnDriver: RSQLite::SQLite()
+RGG_DbConnArgs: dbname = "db/LTValuation.db"
