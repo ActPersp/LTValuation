@@ -46,17 +46,17 @@ Rgogo::DeployProject("LTPricing", overwrite = TRUE)
 To build the package, click RStudio menu items: Build > Install and Restart.
 
 There are three scrip files under "batch" subfolder:
-#### 1. Step_1_Import_Data.R
+### Step_1_Import_Data.R
 
 The scripts import seriatim policy data from an Excel file under "data-raw" subfolder, and save them to a valuation database.
 
 You do not have to run this every time.  The scripts will encounter error if the database file "db/LTValuation.db" already exists.  If you want to re-create database, you need to manually delete the database file before running the scripts.
 
-#### 2. Step_2_Run_Valuation.R
+### Step_2_Run_Valuation.R
 
 The scripts carry out valuation calculation and save seriatim reserves and cash flows to valuation database.
 
-#### 3. Step_3_Summarize_Results.R
+### Step_3_Summarize_Results.R
 
 The scripts summarize reserves and cash flows, and export to an Excel file under "export" subfolder.
 
