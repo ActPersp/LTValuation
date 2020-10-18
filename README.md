@@ -1,11 +1,11 @@
 # LTValuation
-A sample project of valuation for level term policies.
+A sample valuation project for a block of level term insurance policies.
 
 ## Objective
 
 The objective of this project is to demonstrate how to create a valuation project and run valuation using policy premium method for a block of level term policies.
 
-This block consists of 200 policies with 20-year level term insurance and 200 policies with level term to age 65 insurance
+This block consists of 200 policies with 20-year level term insurance and 200 policies with level term to age 65 insurance.
 
 ## Prerequisite
 
@@ -16,6 +16,7 @@ library(devtools)
 install_github(repo = "ActPersp/Rgogo")
 install_github(repo = "ActPersp/MortTables.CA")
 ```
+It is also assumed that you are using RStudio for development environment.
 
 ## Modifying Model
 
@@ -43,7 +44,7 @@ Rgogo::DeployProject("LTPricing", overwrite = TRUE)
 
 ## Running Model
 
-To build the package, click RStudio menu items: Build > Install and Restart.
+Build package before running the model.  To build the package, click RStudio menu items: Build > Install and Restart.
 
 There are three scrip files under "batch" subfolder:
 ### Step_1_Import_Data.R
