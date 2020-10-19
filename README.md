@@ -44,7 +44,7 @@ Rgogo::DeployProject("LTPricing", overwrite = TRUE)
 
 ## Running Model
 
-Build package before running the model.  To build the package, click RStudio menu items: Build > Install and Restart.
+Build package before running the model.  To build the package, click RStudio menu items: **Build > Install and Restart**.
 
 There are three scrip files under "batch" subfolder:
 ### Step_1_Import_Data.R
